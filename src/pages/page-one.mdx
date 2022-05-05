@@ -1,0 +1,62 @@
+<Flex gridArea="edge" gridRow="1" justify="center" align="center" ml={6}>
+  <Image w="60px" src="/Frame.png" alt="Red Nike Swoosh Logo" />
+</Flex>
+
+<Flex
+gridArea="text"
+justify="center"
+direction="column"
+h="100%"
+maxH="400px"
+w="100%"
+p={6}
+>
+  <Flex my={6} mx={2}>
+    <Text color="brand.lightGrey" fontSize="4xl">
+      <GlitchText>INGENIOUS </GlitchText>
+    </Text>
+  </Flex>
+
+
+  <Flex>
+    <Text color="brand.lightGrey" fontSize="6xl"  >
+      <GlitchText>ILLUMINATING GENIOUS MINDS </GlitchText>
+    </Text>
+
+
+  </Flex>
+  <Box h="80%" position="relative" zIndex="101">
+    <Text my={6} fontWeight={300} color="brand.text" fontSize="xl" borderTop="solid 1px" pt={6}>
+      Ingenious built to hone aptitude for discovering, inventing, or contriving ideas. 
+    </Text>
+    <Link href='pages/p2'>
+    <Button colorScheme='teal' variant='solid' >
+    Button
+  </Button>
+  </Link>
+
+
+  </Box>
+
+</Flex>
+
+
+<Flex
+  gridArea="product"
+  justify="center"
+  direction="column"
+  h="100%"
+  position="relative"
+>
+  <Product />
+  <Box
+    position="absolute"
+    right="-15%"
+    bottom="25%"
+    display={['none', 'block']}
+  >
+  </Box>
+
+
+</Flex>
+
