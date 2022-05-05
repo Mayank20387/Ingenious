@@ -1,0 +1,15 @@
+{
+  "imports": {
+    "@chakra-ui/core": "./@chakra-ui/core.js",
+    "@chakra-ui/theme": "./@chakra-ui/theme.js",
+    "@emotion/styled": "./@emotion/styled.js",
+    "@mdx-js/react": "./@mdx-js/react.js",
+    "@react-three/drei": "./@react-three/drei.js",
+    "@testing-library/react": "./@testing-library/react.js",
+    "react": "./react.js",
+    "react-dom": "./react-dom.js",
+    "react-particles-js": "./react-particles-js.js",
+    "react-router-dom": "./react-router-dom.js",
+    "react-three-fiber": "./react-three-fiber.js"
+  }
+}
